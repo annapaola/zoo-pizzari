@@ -1,5 +1,3 @@
-= TWENTY ELEVEN =
+= PIZZARI GROUP THEME =
 
-* by the WordPress team, http://wordpress.org/
-
-== ABOUT TWENTY ELEVEN ==
+* by the Annapaola Santarsiero, http://annapaolasantarsiero.co.uk/
