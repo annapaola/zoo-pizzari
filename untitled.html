@@ -1,0 +1,39 @@
+<div class="section-header section-red">
+	<div class="centralPanel">
+	<h3>#_EVENTNAME</h3>
+	</div>
+	<div class="centralPanel">
+		<div style="float:right; width: 350px">#_LOCATIONMAP</div>
+		<div style="float:left; width: 650px">
+			<p>
+				<strong>Date/Time</strong><br/>
+					Date(s) - #_EVENTDATES<br /><i>#_EVENTTIMES</i>
+				</p>
+				{has_location}
+				<p>
+					<strong>Location</strong><br/>
+					#_LOCATIONLINK
+				</p>
+				{/has_location}
+			<p>
+					<strong>Categories</strong>
+					#_CATEGORIES
+			</p>
+
+			#_EVENTNOTES
+			
+		</div>
+		<div class="clearfix"></div>
+		<div>
+			#_EVENTNOTES
+		</div>
+		<div class="clearfix"></div>
+		{has_bookings}
+			<div>
+			#_BOOKINGFORM
+		</div>
+		<div class="clearfix"></div>
+			{/has_bookings}
+	</div>
+</div>
+<div class="clearfix"></div>
